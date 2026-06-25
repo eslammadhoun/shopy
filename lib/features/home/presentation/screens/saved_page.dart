@@ -81,8 +81,8 @@ class _SavedPageState extends State<SavedPage> {
                     crossAxisCount: 2,
                     mainAxisSpacing: 24,
                     crossAxisSpacing: 19,
-                    childAspectRatio:
-                        172 / (MediaQuery.of(context).size.width - 68 / 2),
+                    // childAspectRatio:
+                    //     172 / (MediaQuery.of(context).size.width - 68 / 2),
                   ),
                   shrinkWrap: true,
                   itemCount: listOfProducts.length,
