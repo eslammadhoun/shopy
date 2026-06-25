@@ -1,6 +1,102 @@
 # Shopy — Flutter E-Commerce App
 
-A full-featured, production-ready e-commerce mobile application built with Flutter, following **Clean Architecture** principles. Shopy covers the entire shopping journey — from onboarding and authentication to product discovery, cart management, real-time checkout with Stripe payments, and order tracking.
+> A full-featured, production-ready e-commerce mobile application built with Flutter, following **Clean Architecture** principles. Shopy covers the entire shopping journey — from onboarding and authentication to product discovery, cart management, real-time checkout with Stripe payments, and order tracking.
+
+<br/>
+
+## Screenshots
+
+### Splash & Onboarding
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/splash.png" width="200"/><br/><sub><b>Splash</b></sub></td>
+    <td align="center"><img src="screenshots/onBoarding.png" width="200"/><br/><sub><b>Onboarding</b></sub></td>
+  </tr>
+</table>
+
+---
+
+### Authentication
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/login.png" width="200"/><br/><sub><b>Login</b></sub></td>
+    <td align="center"><img src="screenshots/signup.png" width="200"/><br/><sub><b>Sign Up</b></sub></td>
+    <td align="center"><img src="screenshots/forgetPassword.png" width="200"/><br/><sub><b>Forgot Password</b></sub></td>
+  </tr>
+</table>
+
+---
+
+### Home & Product Discovery
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/home.png" width="200"/><br/><sub><b>Home</b></sub></td>
+    <td align="center"><img src="screenshots/home-products-filter.png" width="200"/><br/><sub><b>Products Filter</b></sub></td>
+    <td align="center"><img src="screenshots/search.png" width="200"/><br/><sub><b>Search</b></sub></td>
+  </tr>
+</table>
+
+---
+
+### Product Details & Reviews
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/product-dietails.png" width="200"/><br/><sub><b>Product Details</b></sub></td>
+    <td align="center"><img src="screenshots/reviews.png" width="200"/><br/><sub><b>Reviews</b></sub></td>
+  </tr>
+</table>
+
+---
+
+### Wishlist & Cart
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/wishlist.png" width="200"/><br/><sub><b>Wishlist</b></sub></td>
+    <td align="center"><img src="screenshots/cart.png" width="200"/><br/><sub><b>Cart</b></sub></td>
+  </tr>
+</table>
+
+---
+
+### Payment Methods
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/payment-methods.png" width="200"/><br/><sub><b>Payment Methods</b></sub></td>
+    <td align="center"><img src="screenshots/add-payment-card.png" width="200"/><br/><sub><b>Add Payment Card</b></sub></td>
+  </tr>
+</table>
+
+---
+
+### Delivery Address
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/delivery-addresses.png" width="200"/><br/><sub><b>Saved Addresses</b></sub></td>
+    <td align="center"><img src="screenshots/empty-delivery-addresses.png" width="200"/><br/><sub><b>No Addresses</b></sub></td>
+    <td align="center"><img src="screenshots/new-delivery-address.png" width="200"/><br/><sub><b>Add New Address</b></sub></td>
+  </tr>
+</table>
+
+---
+
+### Checkout & Account
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/checkout.png" width="200"/><br/><sub><b>Checkout</b></sub></td>
+    <td align="center"><img src="screenshots/notifications.png" width="200"/><br/><sub><b>Notifications</b></sub></td>
+    <td align="center"><img src="screenshots/account.png" width="200"/><br/><sub><b>Account</b></sub></td>
+  </tr>
+</table>
+
+<br/>
 
 ---
 
@@ -10,7 +106,7 @@ A full-featured, production-ready e-commerce mobile application built with Flutt
 - Splash screen with session persistence via SharedPreferences
 - Animated onboarding flow
 - Email / Password sign-up and login
-- Google Sign-In and Facebook Login (OAuth)x
+- Google Sign-In and Facebook Login (OAuth)
 - OTP-based password reset with hashed code verification
 
 ### Shopping Experience
